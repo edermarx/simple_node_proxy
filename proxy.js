@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const app = express();
 
-const targetUrl = 'https://luna-hom.cfm.org.br';
+const targetUrl = 'http://target.com';
 
 const target = axios.create({
   baseURL: targetUrl,
